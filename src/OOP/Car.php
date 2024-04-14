@@ -10,12 +10,16 @@ abstract class Car
     protected $gearBoxSystems;
 
     protected $turnOn=false;
+    private $dashboard;
+
+
     /**
      * @param $speed
      * @param $numberOfDoors
      * @param $color
      * @param $gearBoxSystems
      */
+
     public function __construct($speed, $numberOfDoors, $color, $gearBoxSystems)
     {
         $this->speed = $speed;
@@ -31,6 +35,21 @@ abstract class Car
     public abstract function accelerate();
 
     public abstract function park();
+
+    public function installDashboard(CarDashboard $dashboard)
+    {
+        $this->dashboard = $dashboard;
+    }
+    public function CarInfo()
+    {
+       if(isset($this->dashboard))
+       {
+           return $this->dashboard->GetDashboard();
+       }
+       else{
+              return "No Dashboard Installed";
+       }
+    }
 
 
 }
