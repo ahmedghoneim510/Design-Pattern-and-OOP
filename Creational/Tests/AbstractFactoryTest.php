@@ -7,7 +7,7 @@ use Creational\AbstractFactory\BMWCar;
 use Creational\AbstractFactory\CarAbstractFactory;
 use PHPUnit\Framework\TestCase;
 
-class AbstractFactoryUnit extends TestCase
+class AbstractFactoryTest extends TestCase
 {
 
 

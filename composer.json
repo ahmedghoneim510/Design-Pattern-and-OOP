@@ -2,7 +2,9 @@
   "autoload": {
     "psr-4": {
       "App\\": "src/",
-      "Creational\\": "Creational/"
+      "Creational\\": "Creational/",
+      "Creational\\FactoryMethodPattern\\": "Creational/FactoryMethodPattern/"
+
     }
   },
   "require-dev": {
