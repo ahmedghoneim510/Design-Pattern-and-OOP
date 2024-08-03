@@ -21,4 +21,16 @@ class Factory
                 throw new \Exception("Invalid car type");
         }
     }
+
+    public function getCard()
+    {
+        switch ($this->carType) {
+            case 'carA':
+                return new MasterCard();
+            case 'carB':
+                return new VisaCard();
+            default:
+                throw new \Exception("Invalid car type");
+        }
+    }
 }
