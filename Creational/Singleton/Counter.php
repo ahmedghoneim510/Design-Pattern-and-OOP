@@ -1,13 +1,14 @@
 <?php
 
-namespace  DesignPatterns\Creational\Singleton;
+namespace  Creational\Singleton;
 
 class Counter
 {
     private static $instance;
     private $count = 0;
 
-    private static $lockFile = 'C:\xampp\htdocs\Design-Pattern-and-OOP\Creational\Singleton\counter_lock';
+    private static $lockFile   = __DIR__ . '/counter_lock';
+
 
     private function __construct()
     {

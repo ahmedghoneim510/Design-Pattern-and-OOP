@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\Creational\Singleton;
 
+use Creational\Singleton\Counter;
+
 require_once('Counter.php');
 
 $counter1 = Counter::getInstance();
