@@ -6,10 +6,6 @@ class BMWCarBuilder implements CarBuilderInterface
 {
     private $bmwCar;
 
-    public function __construct()
-    {
-        $this->bmwCar = new Models\BMWCar();
-    }
 
     public function createCar()
     {
