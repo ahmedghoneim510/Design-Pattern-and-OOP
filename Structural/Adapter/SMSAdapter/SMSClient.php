@@ -6,7 +6,7 @@ use Structural\Adapter\SMSAdapter\Message\IMessage;
 
 abstract class SMSClient
 {
-    protected $message;
+    protected  $message;
 
     protected $deliveryStatus;
     public function __construct($message=[])

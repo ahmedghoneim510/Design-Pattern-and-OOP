@@ -6,9 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Structural\\' => array($baseDir . '/Structural'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
-    'Creational\\FactoryMethodPattern\\' => array($baseDir . '/Creational/FactoryMethodPattern'),
     'Creational\\' => array($baseDir . '/Creational'),
     'App\\' => array($baseDir . '/src'),
 );

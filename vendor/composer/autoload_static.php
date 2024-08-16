@@ -12,6 +12,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Structural\\' => 11,
+        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -22,7 +26,6 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         ),
         'C' => 
         array (
-            'Creational\\FactoryMethodPattern\\' => 32,
             'Creational\\' => 11,
         ),
         'A' => 
@@ -32,6 +35,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $prefixDirsPsr4 = array (
+        'Structural\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Structural',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -39,10 +46,6 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Creational\\FactoryMethodPattern\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Creational/FactoryMethodPattern',
         ),
         'Creational\\' => 
         array (

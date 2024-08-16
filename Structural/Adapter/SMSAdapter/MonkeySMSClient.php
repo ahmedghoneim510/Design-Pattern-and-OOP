@@ -20,10 +20,10 @@ class MonkeySMSClient extends SMSClient
         if($this->filterNumber()) {
             foreach ($this->message as $message) {
                $this->deliveryStatus=rand(1,4);
-               echo "Message is being sent to {$message->getMessage()} with status {$this->getDeliveryStatus()} \n";
+               echo "Message is being sent to {$message->getMessage()} with status {$this->getDeliveryStatus()} <br>";
             }
         }
-        return $this->getDeliveryStatus() ===SMSDeliveryStatus::SENT;
+        return $this->getDeliveryStatus() ==SMSDeliveryStatus::SENT; // return true if message is sent
     }
 
     public function getDeliveryStatus()
