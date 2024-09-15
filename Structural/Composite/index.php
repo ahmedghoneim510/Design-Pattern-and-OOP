@@ -1,6 +1,6 @@
 <?php
+require_once __DIR__ . '/../../vendor/autoload.php';
 
-// Create simple shapes (leaves)
 use Structural\Composite\Circle;
 use Structural\Composite\CompositeGraphic;
 use Structural\Composite\Rectangle;
