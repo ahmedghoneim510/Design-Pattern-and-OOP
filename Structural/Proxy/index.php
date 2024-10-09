@@ -4,8 +4,7 @@ namespace Structural\Proxy;
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-$userHasAccess = true;
-$accountProxy = new BankAccountProxy(12345, $userHasAccess);
+$accountProxy = new BankAccountProxy(12345, true);
 
 // Check balance (first time fetches real balance and caches it)
 echo "Balance: $" . $accountProxy->getBalance() . "<br>";
