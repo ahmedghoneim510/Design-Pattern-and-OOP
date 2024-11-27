@@ -10,5 +10,6 @@ return array(
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Creational\\' => array($baseDir . '/Creational'),
+    'Behavioral\\' => array($baseDir . '/Behavioral'),
     'App\\' => array($baseDir . '/src'),
 );

@@ -28,6 +28,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         array (
             'Creational\\' => 11,
         ),
+        'B' => 
+        array (
+            'Behavioral\\' => 11,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -50,6 +54,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'Creational\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Creational',
+        ),
+        'Behavioral\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Behavioral',
         ),
         'App\\' => 
         array (
