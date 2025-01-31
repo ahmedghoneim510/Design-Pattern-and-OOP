@@ -15,7 +15,11 @@ echo "<br>Left Road: Moving<br>";
 $mediator->action($leftRoad, Road::MOVE_CAR);
 echo "<br>Left Road Status: " . $leftRoad->getRoadStatus() . "<br>";
 echo "<br>Right Road Status: " . $rightRoad->getRoadStatus() . "<br>";
+
+
 echo "<br>---------------------------------<br>";
+
+
 echo "<br>Right Road: Moving<br>";
 $mediator->action($rightRoad, Road::MOVE_CAR);
 echo "<br>Left Road Status: " . $leftRoad->getRoadStatus() . "<br>";
